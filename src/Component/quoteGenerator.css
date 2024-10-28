@@ -1,0 +1,61 @@
+.quote-container {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 20px;
+  color: white;
+  background-color: rgba(31, 41, 57, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  backdrop-filter: blur(16px) saturate(188%);
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 600;
+}
+.text {
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-style: normal;
+}
+.author {
+  font-size: 1.2em;
+  color: rgb(97, 97, 207);
+  font-family: "Times New Roman", Times, serif;
+}
+.button {
+  margin-top: 5px;
+  padding: 15px 25px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: aquamarine;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: rgb(144, 207, 186);
+}
+@media (max-width: 768px) {
+  .quote-container {
+    width: 90%;
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  .text {
+    font-size: 1.2em;
+  }
+  .author {
+    font-size: 1em;
+  }
+  .button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+}
